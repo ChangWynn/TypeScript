@@ -16,6 +16,8 @@ const add = (n1: number, n2: number):number => {
 TypeScript differentiate a function that dont return anything and a function that return undefined.
 In the first case, the function return type is `void`
 
+`void` ignores the return type of the function
+
 ```typescript
 const add = (n1: number, n2: number):number => {
   return n1 + n2
