@@ -10,4 +10,5 @@ npm install -g typescript
 ```
 tsc <PATH TO FILE>
 ```
+
 This will create a JS file with the same name
