@@ -1,11 +1,5 @@
-// const combine = (input1: number | string, input2: number | string) => {
-//   const total = input1 + input2
-//   return total
-// }
-
-// const combinedAges = combine(30, 26)
-// console.log(combinedAges)
-
-// const cominedNames = combine('Max', 'Anna')
-
-
+const add = (n1: number, n2: number, result: boolean, text: string) => {
+  const total = n1 + n2
+  if (result) { console.log(text + total) }
+  else { return total }
+}
