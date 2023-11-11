@@ -1,6 +1,6 @@
 # Tuple Type
 
-Fixed-lenght array
+A tuple is ordered fixed-lenght array.
 
 ```
 [number, string]
@@ -10,7 +10,7 @@ Fixed-lenght array
 [1,2]
 ```
 
-```typescript
+```ts
 const person = {
   name: "Chang",
   age: 35,
@@ -19,10 +19,11 @@ const person = {
 };
 ```
 
-currently, `role` is a `(number | string)[]` but it can be modified to be longer or shorter and the elements can be changed for other types.
-if we strictly want `role` to be an array of one integer and one string, we would need to usee a tuple type to specify it.
+In the example above, `role` is of type `(number | string)[]` but it can be of any length and each element can either be a string or a number.
 
-```typescript
+If we strictly want `role` to be an array of one integer then one string, the tuple type is the appropriate one.
+
+```ts
 const person: {
   name: string;
   age: number;
@@ -36,9 +37,9 @@ const person: {
 };
 ```
 
-although, we specified the length of the tuples to 2 elements, typescript will allow the `push` method.
+Although, we specified the length of the tuples to 2 elements, typescript will allow the `push` method.
 
-```typescript
+```ts
 const person: {
   name: string;
   age: number;
