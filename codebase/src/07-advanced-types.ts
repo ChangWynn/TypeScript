@@ -109,6 +109,3 @@ function add(a: string | number, b: string | number) {
   }
   return a + b;
 }
-
-console.log(add(5, 5));
-console.log(add("Max", "Mike"));

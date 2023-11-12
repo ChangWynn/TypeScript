@@ -1,7 +1,5 @@
 # Basic Types
 
-`NOTE: TS can infere Types when assigning variable so it is not necessary to explicitly define types`
-
 ## Contents
 
 - [Number](#number)

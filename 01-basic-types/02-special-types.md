@@ -8,7 +8,7 @@
 
 ### Literal Types
 
-This position variable can only be a string 'BUY' or 'SELL'
+This `position` variable can only be a string 'BUY' or 'SELL'
 
 ```ts
 let position: "BUY" | "SELL";
@@ -33,6 +33,8 @@ const cominedNames = combine("Max", "Anna");
 ```
 
 ### Custom Types / Aliases
+
+Allows complex types to be assign to a `type variable.`
 
 ```ts
 type NumOrStr = number | string;
