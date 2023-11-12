@@ -18,5 +18,3 @@ class StaffMember implements Person {
     console.log(`Hi, I'm ${this.name}. I'm ${this.age} years old.`);
   }
 }
-
-const max = new StaffMember("Max");
