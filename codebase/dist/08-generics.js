@@ -16,4 +16,4 @@ const countAndDescribe = (element) => {
 };
 console.log(countAndDescribe("Hi, There!")); // Got 10 elements
 console.log(countAndDescribe([1, 2, 3, 4, 5])); // Got 5 elements
-console.log(countAndDescribe({ name: "Max", age: 10 })); // Got no value // compilation error
+// console.log(countAndDescribe({ name: "Max", age: 10 })); // Got no value // compilation error
